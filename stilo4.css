@@ -1,0 +1,121 @@
+body{
+	background: url(fundo.jpg) no-repeat top fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+header img {
+	border-radius: 5px solid #000; 	
+	border-radius: 10px;
+	float: center;
+	margin: 10px 10px 0px 369px;
+	padding: 2px;
+}
+nav#menu{
+	width: 360px;
+	height: 50px;
+	background:red;
+	margin: 10px 10px 0px 305px;
+	float: center;
+
+}
+nav#menu ul{
+	background: black;
+	width: 360px;
+	height: 50px;
+
+}
+nav#menu ul li{
+	display: inline;
+}
+nav#menu ul li a{
+	text-decoration: none;
+	padding: 14px 16px ;
+	color:#fff;
+	font-size: 18px;
+	font-family: verdana;
+	float:left;
+	margin: 0px 7px 0px -10px;
+}
+nav#menu ul li a:hover{
+	background: #9C9C9C;
+}
+p{
+	text-indent: 50px;
+	color:black;
+	font-size: 18px;
+	font-family:Arial;
+	text-align: justify;
+	padding: 2px 0px 0px 0px;
+
+}
+ article img{
+	margin: 5px;
+    padding: 5px;
+    height: 255px;
+    width: 255px;
+    float: left;
+    text-align: left;
+    border-radius: 5px solid #000; 	
+	border-radius: 10px;
+	margin: 10px 10px 0px 369px;
+	
+}
+footer p {
+	background: black;
+	position: relative;
+	color:white;
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+	clear: both;
+	height: 50px;
+	padding: 2px;
+}
+form {
+ font-family: Verdana,Tahoma,sans-serif;
+ color:white;
+ font-size: 20px; 
+ background-color: black; 
+ max-width: 500px; 
+ border-radius: 5px solid #000; 	
+ border-radius: 10px;
+} 
+input, textarea {
+ width: 200px;
+ padding: 10px; 
+ color: black; 
+ margin-left: 20px;border-radius: 5px solid #000; 	
+ border-radius: 10px;
+ 
+}
+.submit input { 
+  background-color: white; 
+  height: 40px; 
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; 
+  border: 1px solid;
+  color: black; 
+
+} 
+textarea {
+  width: 400px;
+   height: 120px; 
+   line-height: 20px; 
+   max-width: 400px; 
+}
+form label { 
+margin-left: 20px; 
+color: white; 
+font-weight: bold; 
+}
+
+
+
+
